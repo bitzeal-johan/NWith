@@ -6,9 +6,10 @@ clone it and just change one member using the following example.
 
 To use immutable types with C# and allow for easy cloning using With, you can use this.
 
-Please tell me what you think
+Please tell me what you think.
 
-public class GuineaPig
+```
+  public class GuineaPig
   {
       public readonly string Name;
       public readonly int Age;
@@ -43,3 +44,4 @@ public class GuineaPig
       Assert.AreEqual(0, originalPig.Age);
       Assert.AreEqual("Fluffy", originalPig.Name);
   }
+  ```
